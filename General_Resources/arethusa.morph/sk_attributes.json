@@ -80,9 +80,9 @@
             "color" : "red"
           }
         },
-        "nrl" : {
+        "nmrl" : {
           "long" : "numeral",
-          "short" : "nrl",
+          "short" : "nmrl",
           "postag" : "m",
           "style" : {
             "color" : "lightgreen"
@@ -146,7 +146,7 @@
             "mood" : "*"
           },
           "unless" : {
-            "mood" : "part"
+            "mood" : ["part", "abs"]
           }
         }
       ]
@@ -173,15 +173,15 @@
           "short" : "sg",
           "postag" : "s"
         },
+        "du" : {
+          "long" : "dual",
+          "short" : "du",
+          "postag" : "d"
+        },
         "pl" : {
           "long" : "plural",
           "short" : "pl",
           "postag" : "p"
-        },
-        "dl" : {
-          "long" : "dual",
-          "short" : "dl",
-          "postag" : "d"
         }
       }
     },
@@ -211,16 +211,6 @@
           "short" : "perf",
           "postag" : "r"
         },
-        "pqpf" : {
-          "long" : "plusquamperfect",
-          "short" : "pqpf",
-          "postag" : "l"
-        },
-        "fex" : {
-          "long" : "future perfect",
-          "short" : "fex",
-          "postag" : "t"
-        },
         "fut" : {
           "long" : "future",
           "short" : "fut",
@@ -249,15 +239,20 @@
           "short" : "ind",
           "postag" : "i"
         },
-        "sub" : {
-          "long" : "subjunctive",
-          "short" : "sub",
-          "postag" : "s"
+        "pot" : {
+          "long" : "potential",
+          "short" : "pot",
+          "postag" : "p"
         },
         "inf" : {
           "long" : "infinitive",
           "short" : "inf",
           "postag" : "n"
+        },
+        "abs" : {
+          "long" : "absolutive",
+          "short" : "abs",
+          "postag" : "a"
         },
         "imp" : {
           "long" : "imperative",
@@ -267,12 +262,7 @@
         "part" : {
           "long" : "participle",
           "short" : "part",
-          "postag" : "p"
-        },
-        "opt" : {
-          "long" : "optative",
-          "short" : "opt",
-          "postag" : "o"
+          "postag" : "pt"
         }
       }
     },
@@ -283,6 +273,9 @@
         {
           "if" : {
             "pos" : "verb"
+          },
+           "unless" : {
+            "mood" : "abs"
           }
         }
       ],
@@ -292,25 +285,15 @@
           "short" : "act",
           "postag" : "a"
         },
-        "pass" : {
-          "long" : "passive",
-          "short" : "pass",
-          "postag" : "p"
-        },
         "mid" : {
           "long" : "middle",
           "short" : "mid",
           "postag" : "m"
         },
-        "mp" : {
-          "long" : "medio-passive",
-          "short" : "mp",
-          "postag" : "e"
-        },
-        "dep" : {
-          "long" : "deponens",
-          "short" : "dep",
-          "postag" : "d"
+        "pass" : {
+          "long" : "passive",
+          "short" : "pass",
+          "postag" : "p"
         }
       }
     },
@@ -349,7 +332,7 @@
       }
     },
     "case" : {
-      "long" : "Casus",
+      "long" : "Case",
       "short" : "case",
       "rules" : [
         {
@@ -370,30 +353,40 @@
           "short" : "nom",
           "postag" : "n"
         },
-        "gen" : {
-          "long" : "genitive",
-          "short" : "gen",
-          "postag" : "g"
+        "acc" : {
+          "long" : "accusative",
+          "short" : "acc",
+          "postag" : "a"
+        },
+        "instr" : {
+          "long" : "instrumental",
+          "short" : "inst",
+          "postag" : "i"
         },
         "dat" : {
           "long" : "dative",
           "short" : "dat",
           "postag" : "d"
         },
-        "acc" : {
-          "long" : "accusative",
-          "short" : "acc",
-          "postag" : "a"
+        "abl" : {
+          "long" : "ablative",
+          "short" : "abl",
+          "postag" : "ab"
         },
-        "voc" : {
-          "long" : "vocative",
-          "short" : "voc",
-          "postag" : "v"
+        "gen" : {
+          "long" : "genitive",
+          "short" : "gen",
+          "postag" : "g"
         },
         "loc" : {
           "long" : "locative",
           "short" : "loc",
           "postag" : "l"
+        },
+        "voc" : {
+          "long" : "vocative",
+          "short" : "voc",
+          "postag" : "v"
         }
       }
     },

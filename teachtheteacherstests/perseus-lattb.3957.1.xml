@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank xmlns:saxon="http://saxon.sf.net/"
+          xml:lang="lat"
+          format="harrington"
+          direction="ltr"
+          version="1.5">
+   <date>2016-04-19 07:21:42 +0000</date>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://services2.perseids.org/llt/segtok</uri>
+   </annotator>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://github.com/latin-language-toolkit/arethusa</uri>
+   </annotator>
+   <annotator>
+      <short>TomGarvey</short>
+      <name>Tom Garvey</name>
+      <address>tgarvey@themeadowsschool.org</address>
+      <uri>http://data.perseus.org/sosol/users/TomGarvey</uri>
+   </annotator>
+   <sentence id="1" document_id="" subdoc="" span="">
+      <word id="1" form="ponitur" lemma="pono" postag="v3spip---" relation="PRED" head="0"/>
+      <word id="2" form="hic" lemma="hic" postag="d-------p" relation="ADV" head="1"/>
+      <word id="3" form="bicolor" lemma="bicolor" postag="a-s---fnp" relation="ATR" head="5"/>
+      <word id="4" form="sincerae" lemma="sincerus" postag="a-s---fg-" relation="ATR" head="6"/>
+      <word id="5" form="baca" lemma="baca" postag="n-s---fn-" relation="SBJ_CO" head="8"/>
+      <word id="6" form="Minervae" lemma="Minervae" postag="n-s---fg-" relation="G-POSS" head="5"/>
+      <word id="7" form="condita" lemma="conditus" postag="a-s---fn-" relation="ATR" head="11"/>
+      <word id="8" form="-que" lemma="" postag="" relation="COORD" head="1"/>
+      <word id="9" form="in" lemma="in" postag="r--------" relation="AuxP" head="7"/>
+      <word id="10" form="liquida" lemma="liquidus" postag="a-s---fb-" relation="ATR" head="13"/>
+      <word id="11" form="corna" lemma="cornum" postag="n-p---nn-" relation="SBJ_CO" head="8"/>
+      <word id="12" form="autumnalia" lemma="auctumnalis" postag="a-p---nn-" relation="ATR" head="11"/>
+      <word id="13" form="faece" lemma="faece" postag="n-s---fb-" relation="AB-LOCAT" head="9"/>
+      <word id="14" form="intiba" lemma="intibum" postag="n-p---nn-" relation="SBJ_CO" head="15"/>
+      <word id="15" form="-que" lemma="" postag="" relation="COORD" head="1"/>
+      <word id="16" form="et" lemma="" postag="" relation="COORD" head="1"/>
+      <word id="17" form="radix" lemma="radix" postag="n-s---fn-" relation="SBJ_CO" head="16"/>
+      <word id="18" form="et" lemma="" postag="" relation="COORD" head="1"/>
+      <word id="19" form="lactis" lemma="lac" postag="n-s---ng-" relation="G-PART" head="20"/>
+      <word id="20" form="massa" lemma="massa1" postag="n-s---fn-" relation="SBJ_CO" head="18"/>
+      <word id="21" form="coacti" lemma="coactum" postag="n-s---ng-" relation="ATR" head="19"/>
+      <word id="22" form="ova" lemma="ovum" postag="n-p---nn-" relation="SBJ_CO" head="23"/>
+      <word id="23" form="-que" lemma="" postag="" relation="COORD" head="1"/>
+      <word id="24" form="non" lemma="" postag="" relation="ADV" head="26"/>
+      <word id="25" form="acri" lemma="acer2" postag="a-s---fb-" relation="ATR" head="28"/>
+      <word id="26" form="leviter" lemma="" postag="" relation="ADV" head="27"/>
+      <word id="27" form="versata" lemma="verso" postag="v-prppnn-" relation="ATR" head="22"/>
+      <word id="28" form="favilla" lemma="favilla" postag="n-s---fb-" relation="AB-MEANS" head="27"/>
+      <word id="29" form="," lemma="punc1" postag="u--------" relation="AuxX" head="1"/>
+      <word id="30" form="omnia" lemma="omnia" postag="n-p---nn-" relation="APOS" head="29"/>
+      <word id="31" form="fictilibus" lemma="fictilis" postag="a-p---nb-" relation="AB-MEANS" head="30"/>
+      <word id="32" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
+   </sentence>
+</treebank>

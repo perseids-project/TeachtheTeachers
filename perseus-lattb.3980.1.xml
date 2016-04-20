@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank xmlns:saxon="http://saxon.sf.net/"
+          xml:lang="lat"
+          format="aldt"
+          direction="ltr"
+          version="1.5">
+   <date>2016-04-19 07:48:37 +0000</date>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://services2.perseids.org/llt/segtok</uri>
+   </annotator>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://github.com/latin-language-toolkit/arethusa</uri>
+   </annotator>
+   <annotator>
+      <short>KrasimiraAngelova</short>
+      <name>Krasimira Angelova</name>
+      <address>kr.angelova@yahoo.com</address>
+      <uri>http://data.perseus.org/sosol/users/KrasimiraAngelova</uri>
+   </annotator>
+   <sentence id="1" document_id="" subdoc="" span="">
+      <word id="1" form="Nam" lemma="" postag="" relation="COORD" head="4"/>
+      <word id="2" form="et" lemma="" postag="" relation="" head="9"/>
+      <word id="3" form="statura" lemma="" postag="" relation="" head="9"/>
+      <word id="4" form="fuit" lemma="sum1" postag="v3sria---" relation="" head="0"/>
+      <word id="5" form="humili" lemma="" postag="" relation="" head=""/>
+      <word id="6" form="et" lemma="" postag="" relation="" head="9"/>
+      <word id="7" form="corpore" lemma="corpus" postag="n-s---nb-" relation="" head="9"/>
+      <word id="8" form="exiguo" lemma="" postag="" relation="" head=""/>
+      <word id="9" form="et" lemma="" postag="" relation="" head="4"/>
+      <word id="10" form="claudus" lemma="claudus" postag="a-s---mn-" relation="" head="9"/>
+      <word id="11" form="altero" lemma="" postag="" relation="" head="12"/>
+      <word id="12" form="pede" lemma="pes" postag="n-s---mb-" relation="" head="10"/>
+      <word id="13" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
+   </sentence>
+</treebank>
